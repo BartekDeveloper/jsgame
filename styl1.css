@@ -1,0 +1,45 @@
+* {
+    font-family: Georgia;
+}
+
+#conteiner {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "center_left center_cent center_right"
+        "footer footer footer";
+    gap: 5px;
+    background-color: darkgray;
+    padding: 5px;
+    width: 300px;
+}
+
+#conteiner > div {
+    background-color: lightgray;
+    padding: 10px;
+    height: 50px;
+}
+
+#header {
+    grid-area: header;
+}
+
+#center_left {
+    grid-area: center_left;
+}
+
+#center_cent {
+    grid-area: center_cent;
+}
+
+#center_right {
+    grid-area: center_right;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+canvas {
+    outline: 2px black outset;
+}

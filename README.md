@@ -1,5 +1,7 @@
 # jsgame
 
+Jajo to gej
 
-12121
-asdasdasd
+
+# DOCS
+https://github.com/mrdoob/three.js/
